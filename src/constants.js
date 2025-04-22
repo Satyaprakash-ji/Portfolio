@@ -64,7 +64,6 @@ export const SkillsInfo = [
   {
     title: 'Backend',
     skills: [
-      // { name: 'Springboot', logo: springbootLogo },
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
@@ -80,7 +79,6 @@ export const SkillsInfo = [
       { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
-      // { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
     ],
@@ -106,7 +104,7 @@ export const SkillsInfo = [
       img: farthinkerLogo,
       role: "Web Developer",
       company: "Farthinkers",
-      date: "December 2024 - April 2025",
+      date: "December 2024 - March 2025",
       desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "HTML",
@@ -159,7 +157,7 @@ export const SkillsInfo = [
       id: 1,
       title: "Wikiwatch",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+        "Built a movie and TV info website using React, where users can search and filter through 1,000+ titles in real time. Used the TMDB API to show accurate and updated details, and designed a responsive layout that works well on both mobile and desktop.",
       image: wikiWatch,
       tags: ["React JS", "Redux", "API", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/Satyaprakash-ji/Wikiwatch",
@@ -169,7 +167,7 @@ export const SkillsInfo = [
       id: 2,
       title: "FreshMeal",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+        "Built a food ordering app using HTML, CSS, and JavaScript, allowing users to browse menus, customize meals, and place orders easily through a responsive and user-friendly interface. Added 5+ features like menu browsing, order customization, and cart management.",
       image: freshMeal,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Satyaprakash-ji/FreshMeal",
