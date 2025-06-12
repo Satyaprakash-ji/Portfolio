@@ -1,6 +1,6 @@
-import ReactTypingEffect from 'react-typing-effect';
-import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile1.jpg';
+import ReactTypingEffect from "react-typing-effect";
+import Tilt from "react-parallax-tilt";
+import profileImage from "../../assets/profile1.jpg";
 
 const About = () => {
   return (
@@ -24,10 +24,10 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Frontend Developer',
-                'Backend Developer',
-                'Fullstack Developer',
-                'Coder',
+                "Frontend Developer",
+                "Backend Developer",
+                "Fullstack Developer",
+                "Coder",
               ]}
               speed={100}
               eraseSpeed={50}
@@ -40,11 +40,16 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 3 months of experience in
+            Highly motivated web developer with a Master's degree in Computer
+            Applications (MCA) with hands-on experience in building full-stack
+            web applications. Proficient in React, Express, Node.js and MongoDB
+            with a strong focus on developing responsive and user-friendly
+            interfaces.
+            {/* I am a full-stack developer with over 3 months of experience in
             building scalable web applications. Skilled in both front-end and
             back-end development, I specialize in the MERN stack and other
             modern technologies to create seamless user experiences and
-            efficient solutions.
+            efficient solutions. */}
           </p>
           {/* Resume Button */}
           <a
@@ -53,13 +58,12 @@ const About = () => {
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
-              background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-              boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+              background: "linear-gradient(90deg, #8245ec, #a855f7)",
+              boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
             }}
           >
             DOWNLOAD RESUME
           </a>
-          
         </div>
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
