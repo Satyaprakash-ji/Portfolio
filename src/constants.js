@@ -31,7 +31,7 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 
 // Experience Section Logo's
-import farthinkerLogo from './assets/company_logo/farthinker_logo.jpg';
+// import farthinkerLogo from './assets/company_logo/farthinker_logo.jpg';
 
 // Education Section Logo's
 import aktuLogo from './assets/education_logo/aktu_logo.png';
@@ -98,28 +98,28 @@ export const SkillsInfo = [
   },
 ];
 
-  export const experiences = [
-    {
-      id: 0,
-      img: farthinkerLogo,
-      role: "Web Developer",
-      company: "Farthinkers",
-      date: "December 2024 - March 2025",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-  ];
+  // export const experiences = [
+  //   {
+  //     id: 0,
+  //     img: farthinkerLogo,
+  //     role: "Web Developer",
+  //     company: "Farthinkers",
+  //     date: "December 2024 - March 2025",
+  //     desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+  //     skills: [
+  //       "HTML",
+  //       "CSS",
+  //       "JavaScript",
+  //       "React JS",
+  //       "TypeScript",
+  //       "Node JS",
+  //       "Tailwind CSS",
+  //       "MongoDb",
+  //       "Redux",
+  //       " Next Js",
+  //     ],
+  //   },
+  // ];
   
   export const education = [
     {
